@@ -1,5 +1,5 @@
 // a little easter egg ;) wish i could do it on all . maybe w class?
-const para = document.getElementById('1');
+const para = document.getElementsByClassName('easter-egg');
 para.addEventListener('click', updateName);
 function updateName() {
 	let Saying = prompt('Enter a new message');
