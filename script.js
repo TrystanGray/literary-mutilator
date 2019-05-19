@@ -23,3 +23,7 @@ function mixWords() {
 		document.getElementById("2").textContent = words.join(" ");
 	});
 }
+
+function highlight() {
+	document.getElementById("3").style.backgroundColor = "#fdff32";
+}
