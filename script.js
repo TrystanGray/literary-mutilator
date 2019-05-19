@@ -6,14 +6,14 @@ function updateName() {
 	para.textContent = 'Oh shit Morty, l-l-look this dumb ass broke our paragraph Morty, and the only thing this glip glop typed was: ' + Saying;
 }
 const easter = document.getElementById('2');
-easter.addEventListener('click', updateName);
-function updateName() {
+easter.addEventListener('click', updateEaster);
+function updateEaster() {
 	let Saying = prompt('What do you have to say for yourself mortal?');
 	easter.textContent = 'Oh shit Morty, l-l-look this dumb ass broke our paragraph Morty, and the only thing this glip glop typed was: ' + Saying;
 }
 const egg = document.getElementById('3');
-egg.addEventListener('click', updateName);
-function updateName() {
+egg.addEventListener('click', updateEgg);
+function updateEgg() {
 	let Saying = prompt('What do you have to say for yourself mortal?');
 	egg.textContent = 'Oh shit Morty, l-l-look this dumb ass broke our paragraph Morty, and the only thing this glip glop typed was: ' + Saying;
 }
